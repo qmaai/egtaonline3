@@ -18,7 +18,7 @@ set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, 'git'
-set :repository,  'git@github.com:egtaonline/egtaonline3.git'
+set :repository,  'git@github.com:qmaai/egtaonline3.git'
 set :branch, 'master'
 
 default_run_options[:pty] = true
