@@ -53,7 +53,7 @@ class GamesController < ProfileSpacesController
     respond_to do |format|
       format.html do
       end
-
+      logger.debug "Gary requesting a game"
       format.json do
         file_name = GamePresenter.new(game)
         .to_json(granularity: params[:granularity])

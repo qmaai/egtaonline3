@@ -11,7 +11,7 @@ load 'deploy/assets'
 
 server 'egtaonline.eecs.umich.edu', :web, :app, :db, primary: true
 
-set :application, 'egtaonline3'
+set :application, 'egtaonline_gl'
 set :user, 'deployment'
 set :deploy_to, "/home/#{user}/#{application}"
 set :deploy_via, :remote_cache

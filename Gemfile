@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 # Core rails gems.  Don't mess with these unless you really know what you're
 # doing.

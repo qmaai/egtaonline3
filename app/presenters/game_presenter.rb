@@ -4,6 +4,7 @@ class GamePresenter
   end
 
   def to_json(options = {})
+    Rails.logger.debug "Gary #{Rails.root}/public/games/#{@game.id}"
     payoff, payoff_sd = options[:adjusted] ?
       %w(adjusted_payoff adjusted_payoff_sd) : %w(payoff payoff_sd)
     case options[:granularity]
